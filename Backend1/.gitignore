@@ -11,8 +11,8 @@ coverage.json
 typechain
 
 # don't push the environment vars!
-.env
 .env.local
+.env
 
 # Built application files
 .DS*
