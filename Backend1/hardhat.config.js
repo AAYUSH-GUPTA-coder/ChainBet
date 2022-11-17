@@ -1,9 +1,4 @@
 require("@nomicfoundation/hardhat-toolbox");
-
-/** @type import('hardhat/config').HardhatUserConfig */
-module.exports = {
-  solidity: "0.8.17",
-};
 require("@nomiclabs/hardhat-waffle");
 require("@nomiclabs/hardhat-etherscan");
 require("hardhat-deploy");
@@ -20,7 +15,7 @@ require("dotenv").config({ path: ".env" });
 const MUMBAI_RPC_URL = process.env.MUMBAI_RPC_URL;
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const POLYGONSCAN_API_KEY = process.env.POLYGONSCAN_API_KEY;
-const REPORT_GAS = process.env.REPORT_GAS
+const REPORT_GAS = process.env.REPORT_GAS;
 const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY;
 
 module.exports = {
@@ -42,14 +37,25 @@ module.exports = {
   etherscan: {
     apiKey: {
       polygonMumbai: POLYGONSCAN_API_KEY,
+      // mumbai: POLYGONSCAN_API_KEY,
     },
+    // customChains: [
+    //   {
+    //     network: "mumbai",
+    //     chainId: 80001,
+    //     urls: {
+    //       apiURL: "https://polygonscan.com/apis",
+    //       browserURL: "https://mumbai.polygonscan.com/",
+    //     },
+    //   },
+    // ],
   },
   gasReporter: {
     enabled: REPORT_GAS,
     currency: "USD",
     outputFile: "gas-report.txt",
     noColors: true,
-    coinmarketcap: process.env.COINMARKETCAP_API_KEY,
+    coinmarketcap: COINMARKETCAP_API_KEY,
   },
   contractSizer: {
     runOnCompile: false,
