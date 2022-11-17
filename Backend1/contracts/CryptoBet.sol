@@ -13,7 +13,7 @@ error SEND_EFFICIENT_MATIC();
 error FAILED_TO_SEND_ETHER_TO_OWNER();
 error BET_UPKEEP_NOT_NEEDED();
 
-contract CryptoBet is AutomationCompatible {
+contract CryptoBet is AutomationCompatibleInterface {
     AggregatorV3Interface internal priceFeedETH;
     address payable private immutable owner;
     uint256 private immutable entryAmount;

@@ -19,7 +19,6 @@ error Raffle__TransferFailed();
 error Raffle__SendMoreToEnterRaffle();
 error Raffle__RaffleNotOpen();
 error Raffle__TransferFailed_toOwner();
-error Raffle__TransferFailed();
 
 contract Raffle is VRFConsumerBaseV2, AutomationCompatibleInterface, Ownable {
   /* Type declarations */
@@ -109,7 +108,7 @@ contract Raffle is VRFConsumerBaseV2, AutomationCompatibleInterface, Ownable {
     upkeepNeeded = (timePassed && isOpen && hasBalance && hasPlayers);
     return (upkeepNeeded, "0x0");
   }
-
+ 
   // find winner
   /**
    * @dev Once `checkUpkeep` is returning `true`, this function is called
