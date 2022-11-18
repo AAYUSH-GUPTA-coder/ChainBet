@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import { ArrowRightIcon, ArrowDownIcon } from "@heroicons/react/solid";
 
 const Navbar = ({
-	option1 = "What is SafeBet?",
+	option1 = "What is ChainBet?",
 	link1 = "/About",
 	option2 = "Meet The Team",
 	link2 = "/Team",
@@ -26,7 +26,7 @@ const Navbar = ({
 							src='/logo.svg'></Image>
 
 						<span className='ml-3 text-2xl tracking-widest font-bebas cursor-pointer'>
-							SafeBet
+							ChainBet
 						</span>
 					</a>
 				</Link>
