@@ -279,7 +279,7 @@ export default function Bet() {
           <h1 className="xl:text-8xl text-6xl mb-4 font-medium text-white text-center w-full mt-12">
             <span className="font-bebas text-white">Welcome to</span>{" "}
             <span className="font-bebas text-transparent bg-clip-text bg-gradient-to-b from-pink-700 to-sf-violet">
-              SafeBet
+              ChainBet
             </span>
           </h1>
 
