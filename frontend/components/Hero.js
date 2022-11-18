@@ -18,9 +18,11 @@ const Hero = () => {
               </span>
             </h1>
             <p className=" text-xl mb-8 leading-relaxed lg:pr-32 font-medium">
-              If you want to bet in the World of Web 3, SafeBet is your finest
-              option. A dApp that will assist you in betting on the things that
-              thrill you the most!
+              If you want to bet in the World of Web 3, ChainBet is your finest
+              option. Using Chainlink Services like VRF, Automation and Data
+              feeds. Every transaction on ChainBet is on-chain. No one can
+              temper with the dapp, not even us. It is safe, secure and
+              transparent. Which follows the Web3 and Chainlink principle "TRUTH > TRUST".
             </p>
             <div className="flex justify-center">
               <Link href="/Dashboard">

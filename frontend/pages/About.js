@@ -10,7 +10,7 @@ export default function AboutPage() {
 				<title>Safe Bet</title>
 				<meta
 					name='description'
-					content='SafeBet is the best Betting dApp. Completely decentralized and powered by TRUTH, not Trust!'
+					content='ChainBet is the best Betting dApp. Completely decentralized and powered by TRUTH, not Trust!'
 				/>
 				<meta name='msapplication-TileColor' content='#da532c' />
 				<meta name='theme-color' content='#ffffff' />
