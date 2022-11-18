@@ -214,7 +214,7 @@ const Lotter = () => {
   return (
     <div className="bg-gradient-to-br from-tertiary-color via-main to-tertiary-color">
       <Head>
-        <title>Lottery Game | Safe Bet</title>
+        <title>Lottery Game | ChainBet</title>
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Head>

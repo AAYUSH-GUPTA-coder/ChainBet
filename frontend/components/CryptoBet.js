@@ -216,7 +216,7 @@ const CryptoBet = () => {
   return (
     <div className="min-h-screen flex flex-col justify-center w-full">
       <Head>
-        <title>Crypto Bet | Safe Bet</title>
+        <title>Crypto Bet | ChainBet</title>
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Head>

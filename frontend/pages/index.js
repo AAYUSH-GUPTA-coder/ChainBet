@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <div>
             <Head>
-                <title>Safe Bet</title>
+                <title>ChainBet</title>
                 <meta
                     name='description'
                     content='ChainBet is the best Betting dApp. Completely decentralized and powered by TRUTH, not Trust!'

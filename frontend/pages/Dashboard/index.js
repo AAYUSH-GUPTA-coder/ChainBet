@@ -263,7 +263,7 @@ export default function Bet() {
   return (
     <main className="bg-gradient-to-br from-tertiary-color via-main to-tertiary-color">
       <Head>
-        <title>Dashboard | Safe Bet</title>
+        <title>Dashboard | ChainBet</title>
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
