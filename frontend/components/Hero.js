@@ -22,7 +22,8 @@ const Hero = () => {
               option. Using Chainlink Services like VRF, Automation and Data
               feeds. Every transaction on ChainBet is on-chain. No one can
               temper with the dapp, not even us. It is safe, secure and
-              transparent. Which follows the Web3 and Chainlink principle "TRUTH > TRUST".
+              transparent. Which follows the Web3 and Chainlink principle 
+              &quot; TRUTH &gt; TRUST &quot;.
             </p>
             <div className="flex justify-center">
               <Link href="/Dashboard">
