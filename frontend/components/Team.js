@@ -159,7 +159,7 @@ export default function Team() {
               />
               <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                 <p className="mb-1 text-lg font-bold text-gray-100">
-                  Vanshika Rana
+                  Suvraneel
                 </p>
                 <p className="mb-4 text-xs text-gray-100">Frontend & UI/UX</p>
                 <p className="mb-4 text-xs tracking-wide text-gray-400">
