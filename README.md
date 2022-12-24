@@ -1,5 +1,5 @@
 # ChainBet
-SafeBet is your Decentralized Betting Buddy. We all know how popular betting applications have become in recent years.
+ChainBet is your Decentralized Betting Buddy. We all know how popular betting applications have become in recent years.
 Despite the fact that they are an excellent product, the issue of security persists.
 
 The global sports betting market size was valued at USD 76.75 billion in 2021 and is anticipated to grow at a compound annual growth rate (CAGR) of 10.2% from
